@@ -4,5 +4,5 @@ $usuario = 'grupo_5';
 $clave = 'afa_8175';
 $bd = new PDO($cadena_conexion, $usuario, $clave);
 
-// $sql = "SELECT * FROM peliculas";
-// $peliculas = $bd->query($sql);
+$sql = "SELECT * FROM users";
+$users = $bd->query($sql);
