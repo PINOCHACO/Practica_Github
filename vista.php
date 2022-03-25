@@ -9,29 +9,29 @@
 </head>
 
 <body>
-    <table>
-        <tr>
-            <th>#</th>
-            <th>Nombre</th>
-            <th>Edad</th>
-            <th>Email</th>
-            <th>Password</th>
-        </tr>
+
+    <div>
 
         <?php
         include 'conexion_bbdd.php';
 
         foreach ($users as $user) {
         ?>
-            <tr>
-                <td><?= $user['id'] ?></td>
-                <td><?= $user['user_name'] ?></td>
-                <td><?= $user['age'] ?></td>
-                <td><?= $user['email'] ?></td>
-                <td><?= $user['passwd'] ?></td>
-            </tr>
+            <div>
+                <div>
+                    <div>
+                        <h2><?= $user['user_name'] ?></h2>
+                        <p><?= $user['age'] ?></p>
+                    </div>
+                    <ul>
+                        <li><?= $user['email'] ?></li>
+                        <li><?= $user['passwd'] ?></li>
+                    </ul>
+                </div>
+            </div>
         <?php } ?>
-    </table>
+
+    </div>
 </body>
 
 </html>
