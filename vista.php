@@ -13,14 +13,14 @@
 
 <body>
 
-    <div class="container">
+    <div>
         <h1>Vista Usuarios</h1>
         <?php
         include 'conexion_bbdd.php';
 
         foreach ($users as $user) {
         ?>
-            <div class="tb_he">
+            <div class="container">
                 <div>
                     <div>
                         <h2>Nombre:  <?= $user['user_name'] ?></h2>
