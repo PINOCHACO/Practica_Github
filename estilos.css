@@ -3,11 +3,24 @@
     background-color: white;
     margin: 50px auto;
     box-shadow: 0 0 20px #333;
-
     display: grid;
-    grid-template-columns: repeat(4,lfr);
-    grid-row: 50px;
+
 }
 body{
-    background-color: red;
+    background-color: rgb(204, 220, 250);
+}
+h1{
+    
+    margin-left: 42%;
+}
+hr{
+    height:8px;
+    color: black;
+    background-color: black;
+}
+.tb_he{
+    text-align:5px right ;
+    display: flex;
+    align-items: center;
+    background-color: rgb(184, 184, 184);
 }

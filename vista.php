@@ -14,21 +14,22 @@
 <body>
 
     <div class="container">
-        <h1>Usuarios</h1>
+        <h1>Vista Usuarios</h1>
         <?php
         include 'conexion_bbdd.php';
 
         foreach ($users as $user) {
         ?>
-            <div>
+            <div class="tb_he">
                 <div>
                     <div>
-                        <h2><?= $user['user_name'] ?></h2>
-                        <p><?= $user['age'] ?></p>
+                        <h2>Nombre:  <?= $user['user_name'] ?></h2>
+                        <p>Edad: <?= $user['age'] ?></p>
                     </div>
+                    <hr>
                     <ul>
-                        <li><?= $user['email'] ?></li>
-                        <li><?= $user['passwd'] ?></li>
+                        <li>Email:  <?= $user['email'] ?></li>
+                        <li>Password:  <?= $user['passwd'] ?></li>
                     </ul>
                 </div>
             </div>
