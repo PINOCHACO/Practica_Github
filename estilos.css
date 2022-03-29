@@ -1,13 +1,13 @@
-*{
+.container{
+    width: 90%;
+    background-color: white;
+    margin: 50px auto;
+    box-shadow: 0 0 20px #333;
 
+    display: grid;
+    grid-template-columns: repeat(4,lfr);
+    grid-row: 50px;
 }
 body{
-
-}
-.container {
-    text-align: center;
-
-}
-.row {
-    
+    background-color: red;
 }
