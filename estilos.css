@@ -4,16 +4,19 @@
     margin: 50px auto;
     box-shadow: 0 0 20px #333;
     display: grid;
-    padding-right: 5%;
-    
-
+    padding-left: 2%;
+    padding-right: 2%;
 }
 body{
     background-color: rgb(204, 220, 250);
+    font-family: 'Paytone One', sans-serif;
 }
 h1{
-    
-    margin-left: 42%;
+    margin-left: 35%;
+    font-size: 40pt;
+}
+p{
+    font-size: 16pt;
 }
 hr{
     height:8px;
